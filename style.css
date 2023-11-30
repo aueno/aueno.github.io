@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+}
+.main {
+  padding: 0px 5% 0px 0px;
+  width: 80%;
+}
+.sidebar {
+  width: 15%;
+  height: 300px;
+  top: 0;
+}
+
+body {
+  background-color: rgb(254, 246, 233);
+}
+
+h3 {
+    padding: 10px;
+    color: #010101;
+    background: #a9d4ff;
+  }
+
+h4 {
+  padding: 7px;
+  color: #0d68f0;
+}
+
