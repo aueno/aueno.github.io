@@ -59,7 +59,7 @@ const Card = ({ heading, description, icon, href }: CardProps) => {
                     </Text>
                 </Box>
                 <Button as={'a'} href={href} target='_blank' variant={'link'} colorScheme={'blue'} size={'sm'}>
-                    {href ? <>サイトへ &nbsp; <FaExternalLinkAlt /></> : ''}
+                    {href ? <>サイト・機能概要（PDF）へ &nbsp; <FaExternalLinkAlt /></> : ''}
                 </Button>
             </Stack>
         </Box>
@@ -103,7 +103,7 @@ export default function Works() {
                             heading={'履修管理システム（非公開）'}
                             icon={<Icon as={FcDiploma1} w={10} h={10} />}
                             description={'Laravelを用いて，CRUDアプリケーションを実装しました．SAML認証によるシングルサインオンも併せて実装しています．'}
-                            href={''}
+                            href={'./academic-affairs.pdf'}
                         />
                     </div>
                 </Flex>
