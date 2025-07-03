@@ -57,6 +57,10 @@ export default function Skills() {
                             <Td>応用情報技術者試験</Td>
                             <Td>2022年12月 合格</Td>
                         </Tr>
+                        <Tr>
+                            <Td>情報処理安全確保支援士試験</Td>
+                            <Td>2025年7月 合格</Td>
+                        </Tr>
                     </Tbody>
                 </Table>
             </TableContainer>
