@@ -30,6 +30,7 @@
     "yaml": "^2.8.3"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
